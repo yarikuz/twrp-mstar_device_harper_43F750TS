@@ -5,7 +5,7 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
-LOCAL_PATH := device/mediatek/mt5867
+LOCAL_PATH := device/mediatek/m7332
 
 # Dynamic Partitions stuff
 PRODUCT_USE_DYNAMIC_PARTITIONS := true
@@ -16,8 +16,8 @@ PRODUCT_TARGET_VNDK_VERSION := 30
 # API
 PRODUCT_SHIPPING_API_LEVEL := 30
 
-PRODUCT_PLATFORM := mt5867
-PRODUCT_BOARD := mt5867_eu
+PRODUCT_PLATFORM := m7332
+PRODUCT_BOARD := m7332_eu
 
 # Boot control HAL
 PRODUCT_PACKAGES += \

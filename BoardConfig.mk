@@ -5,7 +5,7 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
-DEVICE_PATH := device/mediatek/mt5867
+DEVICE_PATH := device/mediatek/m7332
 
 # For building with minimal manifest
 ALLOW_MISSING_DEPENDENCIES := true
@@ -21,17 +21,17 @@ TARGET_CPU_VARIANT_RUNTIME := cortex-a55
 TARGET_USES_64_BIT_BINDER := true
 
 # Platform
-TARGET_BOARD_PLATFORM := mt5867
+TARGET_BOARD_PLATFORM := m7332
 
 # Bootloader
-TARGET_BOOTLOADER_BOARD_NAME := mt5867_eu
+TARGET_BOOTLOADER_BOARD_NAME := m7332_eu
 TARGET_NO_BOOTLOADER := true
 
 # These are for MTK Chipsets only
 BOARD_USES_MTK_HARDWARE := true
 
 # Assert
-TARGET_OTA_ASSERT_DEVICE := mt5867
+TARGET_OTA_ASSERT_DEVICE := m7332
 
 # Display
 TARGET_SCREEN_DENSITY := 320
