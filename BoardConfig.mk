@@ -102,7 +102,7 @@ TARGET_USES_MKE2FS := true
 # Recovery
 TARGET_RECOVERY_PIXEL_FORMAT := BGRA_8888
 RECOVERY_SDCARD_ON_DATA := true
-BOARD_HAS_NO_SELECT_BUTTON := true
+BOARD_HAS_NO_SELECT_BUTTON := false
 #TARGET_RECOVERY_LCD_BACKLIGHT_PATH := \"/sys/devices/backlight/backlight/backlight/brightness\"
 
 # TWRP Configuration
